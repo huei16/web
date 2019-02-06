@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700,800');
+
+:root {
+  --mainColor: #ff9800;
+}
+html {scroll-behavior: smooth;}
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+  margin: 0;
+}
+
+h1{color: white; background-color: black; margin-top:55px; position: relative; width:300px; margin-left:-150px; left:50%; font-size: 24px; text-align: center;}
+a{color:black; text-decoration: none;}
+
+
+
+.column1{position: absolute; top:0; left:0 opacity: 0; z-index: -10; height: 0;}
+.nav{position: absolute;height: 0; width: 0; top:0; left:0; opacity:0; z-index: -10;}
+
+
+.photo{ width:200px; height:300px; border: 3px solid black; overflow: hidden; margin-left:-100px; left:50%; top:20px; position: relative;}
+.photo img { width: 300px; margin: -20px 0px 0 -70px;}
+
+.photo {
+  box-shadow: 0.4rem 0.4rem 0 black;
+  transform: translate(-0.4rem, -0.4rem);
+}
+
+.statement{width:90%; margin-left: 5%; margin-top: 40px;font-weight: 400;}
+.contact{position: absolute; top:0; left:0;opacity: 0; z-index: -10; height: 0px;}
+.mcontact{position: relative; bottom: 0px;background-color: black; text-align: center; margin: 0; margin-top: 30px; padding-top: 10px; padding-bottom: 10px;}
+.mcontact:visited{color: white;}
+.email, .facebook, .github{color:white; font-weight: 600; font-size: 14px;}
+
+
+/* -----------------
+      nav
+  -------------------*/
+.opennn{position: absolute; top: 10px; left:10px;}
+
+  .sidenav {
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#ffdeae;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  #mySidenav{line-height: 30px; font-size: 16px;}
+  .closebtn {font-size: 36px;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    margin-left: 50px;
+  }
+
+  .mnav-big{font-size: 20px; font-weight: 600;
+    background: linear-gradient(to bottom, var(--mainColor) 0%, var(--mainColor) 100%);
+  	background-position: 0 100%;
+  	background-repeat: repeat-x;
+  	background-size: 4px 4px;
+    color: black;
+    text-decoration: none;
+  }
+  .mnavs{font-size: 16px; font-weight: 600;}
+
+  a{  text-decoration: none;
+    color: black;}
+
+  .mblank{height:5px; width: 100%;}
+
+  .mnavvv{position: absolute; left:60px; top:100px; line-height: 40px;}
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 0px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .mnav-about {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .5s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+    background-position: 0 100%;
+    background-size: auto 10px;
+    background-repeat: repeat-x;
+    text-decoration: none;
+  }

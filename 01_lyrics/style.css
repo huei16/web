@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css?family=Timmana');
+
+
+body{margin: 0;}
+body {background-color: #FFF7D4;}
+button{color:none;}
+
+.cross{margin:0;
+padding: 1.5rem;
+font-size: 38px;
+line-height: 40px;
+color:#FFCF7B;}
+
+.instruction{background-color:pink; border: 3px solid black; position: absolute; padding: 40px 60px 80px 60px;
+font-family:'Timmana', sans-serif; font-size: 18px; z-index: 30;
+position: absolute; margin-left: -250px; left:50%; top: 200px}
+
+.instruction_mobile{width:0; opacity: 0; position: absolute;}
+.mobile_bg{width:0; opacity: 0; position: absolute;}
+.your-love-bg{width:0; opacity: 0; position: absolute;}
+
+#yes{position: absolute; margin-left: -3.5ch;left:50%; border: 2.5px solid black; text-decoration: none; padding: 5px 10px 0px 10px; background-color: rgba(255,255,255,0.6); z-index: 50;}
+.curtain{width:100vw; height:100vh; background-color: rgb(255,255,255,0.9); position: absolute; z-index: 20;}
+
+#hide.hide{opacity: 0; transition: .3s;}
+/* -----------------------
+     CENTER ELEMENT
+  ------------------------*/
+/* .ugly-face {
+  width:200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30vh
+} */
+
+/*.face {
+  width:130px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 35vh
+}
+*/
+/*
+.face-move {
+  width: 360px;
+  height: 300px;
+  display:block;
+  background: transparent url(/shapes/face-move-01.png) 0 0 no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  animation:face 2s steps(3) infinite;
+}
+*/
+.face-heart{ margin-left: -250px;
+  position:absolute;
+  left: 50%;
+  top: 20vh;
+  z-index: 1;
+}
+
+/* @@keyframes face {
+    0% {background-position: 0 0;}
+    100% {background-position: 0 -900px;}
+} */
+@keyframes swoosh {
+  0% {transform:scale(1);}
+  100% {transform: scale(1.2);}
+}
+
+.your-love { width:600px; display: block; margin-left: auto; margin-right: auto; text-align: center;
+  position: fixed; top:50vh; left:30vw; z-index: 2;
+  animation: swoosh .4s ease; animation-play-state: paused; animation-iteration-count: infinite; animation-direction: alternate;
+}
+
+.your-love:hover {
+  animation-play-state: running;
+}
+
+p {
+  font-family: 'Timmana', sans-serif;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+a:visited{color: black;}
+
+
+
+/* -----------------------
+          SHAPES
+  ------------------------*/
+.block {width:100vw; height:100vh; position: relative; }
+  @keyframes fadein {
+      0%   { opacity: 0; }
+      100% { opacity: 1; }
+  }
+  .blush{width: 111.5px; position: absolute; margin-left: -58px;left:50%; top: 35.3vh; z-index: 3; opacity: 0;
+        animation-name: fadein; animation-duration: 1s; animation-timing-function:ease;
+        animation-iteration-count: infinite; animation-direction: alternate; animation-fill-mode: forwards;animation-play-state: paused;
+                }
+  .blush:hover{ animation-fill-mode: backwards; animation-play-state: running;}
+
+
+  /*stars*/
+  .star01 {width: 90px; position: absolute; left: 10vw; top: 10vh; }
+  .star02 {width: 65px; position: absolute; left: 5vw; top: 50vh; }
+  .star03 {width: 75px; position: absolute; left: 30vw; top: 40vh; }
+  .star04 {width: 80px; position: absolute; left: 26vw; top: 80vh; }
+  .star05 {width: 95px; position: absolute; left: 60vw; top: 8vh; }
+  .star06 {width: 60px; position: absolute; left: 70vw; top: 55vh; }
+  .star07 {width: 80px; position: absolute; left: 90vw; top: 40vh; }
+  /*lines*/
+  .line01 {width: 55px; position: absolute; left: 5vw; top: 3vh; }
+  .line02 {width: 70px; position: absolute; left: 8vw; top: 75vh; }
+  .line03 {width: 55px; position: absolute; left: 23vw; top: 7vh; }
+  .line04 {width: 55px; position: absolute; left: 15vw; top: 33vh; }
+  .line05 {width: 55px; position: absolute; left: 18vw; top: 60vh; }
+  .line06 {width: 55px; position: absolute; left: 30vw; top: 19vh; }
+  .line07 {width: 35px; position: absolute; left: 45vw; top: 77vh; }
+  .line08 {width: 50px; position: absolute; left: 58vw; top: 88vh; }
+  .line09 {width: 65px; position: absolute; left: 68vw; top: 40vh; }
+  .line10 {width: 30px; position: absolute; left: 75vw; top: 4vh; }
+  .line11 {width: 55px; position: absolute; left: 85vw; top: 18vh; }
+  .line12 {width: 55px; position: absolute; left: 75vw; top: 80vh; }
+  .line13 {width: 49px; position: absolute; left: 91vw; top: 73vh; }
+  /*circles*/
+  .circle01 {width: 40px; position: absolute; left: 4vw; top: 33vh; }
+  .circle02 {width: 32px; position: absolute; left: 16vw; top: 86vh; }
+  .circle03 {width: 40px; position: absolute; left: 33vw; top: 65vh; }
+  .circle04 {width: 32px; position: absolute; left: 45vw; top: 15vh; }
+  .circle05 {width: 32px; position: absolute; left: 60vw; top: 70vh; }
+  .circle06 {width: 32px; position: absolute; left: 76vw; top: 30vh; }
+  .circle07 {width: 40px; position: absolute; left: 83vw; top: 60vh; }
+  .circle08 {width: 32px; position: absolute; left: 92vw; top: 15vh; }
+
+
+
+  /* -----------------------
+       VECTOR PATHS
+    ------------------------*/
+  /* .st01 {  fill: none; transition: fill 3s linear 0s;}
+  .st01:hover {fill: #dba436;}
+  .st01 {stroke: #000000; stroke-width: .4em;}
+  */
+  /* STAR */
+  @keyframes color-st01 { 0% {fill: #ffffff} 100% {fill: #8FBC8F}}
+  .st01{ fill: none; stroke: #000000; stroke-width: .4em; animation: color-st01; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .st01:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  @keyframes color-st02 { 0% {fill: #ffffff} 100% {fill: #FF4500}}
+  .st02{ fill: none; stroke: #000000; stroke-width: .4em; animation: color-st02; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .st02:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  @keyframes color-st03 { 0% {fill: #ffffff} 100% {fill: #F08080}}
+  .st03{ fill: none; stroke: #000000; stroke-width: .4em; animation: color-st03; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .st03:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  @keyframes color-st04 { 0% {fill: #ffffff} 100% {fill: #FFD700}}
+  .st04{ fill: none; stroke: #000000; stroke-width: .4em; animation: color-st04; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .st04:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  @keyframes color-st05 { 0% {fill: #ffffff} 100% {fill: #FFA07A}}
+  .st05{ fill: none; stroke: #000000; stroke-width: .4em; animation: color-st05; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .st05:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  @keyframes color-st06 { 0% {fill: #ffffff} 100% {fill: #ADD8E6}}
+  .st06{ fill: none; stroke: #000000; stroke-width: .4em; animation: color-st06; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .st06:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  @keyframes color-st07 { 0% {fill: #ffffff} 100% {fill: #6495ED}}
+  .st07{ fill: none; stroke: #000000; stroke-width: .4em; animation: color-st07; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .st07:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  /* LINE */
+  @keyframes color-li01 { 0% {fill: #ffffff} 100% {fill: #F08080}}
+  .li01{ fill: none; stroke: #000000; stroke-width: .4em; animation: color-li01; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .li01:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  @keyframes color-li02 { 0% {fill: #ffffff} 100% {fill: #6495ED}}
+  .li02{ fill: none; stroke: #000000; stroke-width: .4em; animation: color-li02; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .li02:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  @keyframes color-li03 { 0% {fill: #ffffff} 100% {fill: #FFD700}}
+  .li03{ fill: none; stroke: #000000; stroke-width: .4em; animation: color-li03; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .li03:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  @keyframes color-li04 { 0% {fill: #ffffff} 100% {fill: #D8BFD8}}
+  .li04{ fill: none; stroke: #000000; stroke-width: .4em; animation: color-li04; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .li04:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  @keyframes color-li05 { 0% {fill: #ffffff} 100% {fill: #ADD8E6}}
+  .li05{ fill: none; stroke: #000000; stroke-width: .4em; animation: color-li05; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .li05:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  @keyframes color-li06 { 0% {fill: #ffffff} 100% {fill: #FF8C00}}
+  .li06{ fill: none; stroke: #000000; stroke-width: .4em; animation: color-li06; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .li06:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  @keyframes color-li07 { 0% {fill: #ffffff} 100% {fill: #FFA07A}}
+  .li07{ fill: none; stroke: #000000; stroke-width: .4em; animation: color-li07; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .li07:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  @keyframes color-li08 { 0% {fill: #ffffff} 100% {fill: #ADD8E6}}
+  .li08{ fill: none; stroke: #000000; stroke-width: .4em; animation: color-li08; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .li08:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  @keyframes color-li09 { 0% {fill: #ffffff} 100% {fill: #D8BFD8}}
+  .li09{ fill: none; stroke: #000000; stroke-width: .4em; animation: color-li09; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .li09:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  @keyframes color-li10 { 0% {fill: #ffffff} 100% {fill: #8FBC8F}}
+  .li10{ fill: none; stroke: #000000; stroke-width: .4em; animation: color-li10; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .li10:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  @keyframes color-li11 { 0% {fill: #ffffff} 100% {fill: #FFD700}}
+  .li11{ fill: none; stroke: #000000; stroke-width: .4em; animation: color-li11; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .li11:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  @keyframes color-li12 { 0% {fill: #ffffff} 100% {fill: #FFD700}}
+  .li12{ fill: none; stroke: #000000; stroke-width: .4em; animation: color-li12; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .li12:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  @keyframes color-li13 { 0% {fill: #ffffff} 100% {fill: #FF4500}}
+  .li13{ fill: none; stroke: #000000; stroke-width: .4em; animation: color-li13; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .li13:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  /* CIRCLE */
+  @keyframes color-cir01 { 0% {fill: #ffffff} 100% {fill: #FFA07A}}
+  .cir01{ fill: none; stroke: #000000; stroke-width: .43em; animation: color-cir01; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .cir01:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  @keyframes color-cir02 { 0% {fill: #ffffff} 100% {fill: #FF8C00}}
+  .cir02{ fill: none; stroke: #000000; stroke-width: .5em; animation: color-cir02; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .cir02:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  @keyframes color-cir03 { 0% {fill: #ffffff} 100% {fill: #8FBC8F}}
+  .cir03{ fill: none; stroke: #000000; stroke-width: .43em; animation: color-cir03; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .cir03:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  @keyframes color-cir04 { 0% {fill: #ffffff} 100% {fill: #ADD8E6}}
+  .cir04{ fill: none; stroke: #000000; stroke-width: .5em; animation: color-cir04; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .cir04:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  @keyframes color-cir05 { 0% {fill: #ffffff} 100% {fill: #F08080}}
+  .cir05{ fill: none; stroke: #000000; stroke-width: .5em; animation: color-cir05; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .cir05:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  @keyframes color-cir06 { 0% {fill: #ffffff} 100% {fill: #FF8C00}}
+  .cir06{ fill: none; stroke: #000000; stroke-width: .5em; animation: color-cir06; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .cir06:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  @keyframes color-cir07 { 0% {fill: #ffffff} 100% {fill: #F08080}}
+  .cir07{ fill: none; stroke: #000000; stroke-width: .43em; animation: color-cir07; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .cir07:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+  @keyframes color-cir08 { 0% {fill: #ffffff} 100% {fill: #D8BFD8}}
+  .cir08{ fill: none; stroke: #000000; stroke-width: .43em; animation: color-cir08; animation-duration: 3s; animation-timing-function: cubic-bezier(.08,.95,.06,.99); animation-fill-mode: backwards; animation-play-state: paused;}
+  .cir08:hover { animation-fill-mode: forwards; animation-play-state: running;}
+
+
+
+  /* ROTATE */
+
+  @keyframes spin { 100% {transform: rotate(100turn); }}
+  .shapes{ animation: spin; animation-duration: 300s; animation-timing-function: linear; animation-play-state: paused; animation-iteration-count: infinite; animation-direction: alternate; }
+  .shapes:hover{animation-fill-mode: backwards;animation-play-state: running;}
+/*  .moveShapes{animation: spin; animation-duration: 300s; animation-timing-function: linear; animation-play-state: running; animation-iteration-count: infinite; animation-direction: alternate; }
+*/
+/*  .shapes:hover::after{ animation-fill-mode: backwards; animation-play-state: running;}
+*/
+/*  .shapes:hover {
+    transition: rotate(20turn) 30s;
+  }
+ .shapes:after {
+    transition: rotate(20turn) 30s;
+  }
+  */

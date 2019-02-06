@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Timmana');
+
+
+body{margin: 0; width: 100%; height:100%; overflow: hidden;}
+body {background-color: #FFF7D4;
+  /* background-image: url(shapes/sketch_mobile.png); background-size: contain; */
+}
+button{color:none;}
+
+.mobile_bg{width:100vw;}
+.cross{margin:0;
+font-size: 20px;
+line-height: 3vh;
+color:#FFCF7B; position: absolute; width:100%; height:100%; top:0; left:0;}
+
+.instruction{width:0; opacity: 0; position: absolute;}
+.instruction_mobile{background-color:pink; border: 3px solid black; position: absolute; margin-top: 250px;
+  padding: 3vh 5vw 5vh 5vw;
+font-family:'Timmana', sans-serif; font-size: 20px; z-index: 30;
+position: absolute; margin-left: -45vw; left:50%; top: 0px; width:80vw;}
+
+#yess{position: relative; margin-left: -3.5ch;left:50%; border: 2.5px solid black; text-decoration: none; top: -10px;padding: 5px 10px 0px 10px; background-color: rgba(255,255,255,0.6); z-index: 50;}
+.curtain{width:100%; height:100%; background-color: rgb(255,255,255,0.9); position: absolute; z-index: 20;}
+#hide.hide{opacity: 0; transition: .3s;}
+
+p{font-family:'Timmana', sans-serif; font-size: 20px;}
+.shapes{width:0px; height:0px;}
+.li01{width:0px;}
+
+
+.face-heart{ margin-left: -250px;
+  position:absolute;
+  left: 50%;
+  top: 175px;
+  z-index: 1;
+}
+
+@keyframes swoosh {
+  0% {transform:scale(0.9);}
+  100% {transform: scale(0.8);}
+}
+.your-love { width:600px; display: block; text-align: center; margin-left:-300px;
+  position: absolute; top:425px; left:50%; z-index: 2;
+  animation: swoosh .4s ease; animation-iteration-count: infinite; animation-direction: alternate;
+  /* background-color: rgba(255,247,212,0.8);  */
+}
+.your-love-bg{width:325px; height:16px; background-color: white;display: block; text-align: center; margin-left:-162.5px;
+  position: absolute; top:450px; left:50%; z-index: 1;}
+
+
+
+  @keyframes fadein {
+      0%   { opacity: 0; }
+      100% { opacity: 1; }
+  }
+  .blush{width: 111.5px; position: absolute; margin-left: -58px;left:50%; top: 290px; z-index: 10; opacity: 1;
+        animation-name: fadein; animation-duration: 1s; animation-timing-function:ease;
+        animation-iteration-count: infinite; animation-direction: alternate; animation-fill-mode: forwards;}
