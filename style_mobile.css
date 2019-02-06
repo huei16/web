@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700,800');
+
+:root {
+  --mainColor: #ff9800;
+}
+#canvas-1{width:100%; height:100vh;}
+html {scroll-behavior: smooth;}
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+  margin: 0;
+}
+
+.hi{position: absolute; width:100%; text-align: center; top:120px;}
+.blank{height:20px; width: 100%;}
+.secret{font-size: 16px; position: absolute; width:300px; margin-left: -150px; left:50%; text-align: center;color: #ffb757; bottom:10px;
+  /* #ff9800; */
+  z-index: -10;}
+
+
+/* --------------------
+        YELLOW WAVE
+  ---------------------- */
+.button {
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	background-size: 5px 5px;
+  color: black;
+  text-decoration: none;
+}
+.button:visited{color:black;}
+.button {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .5s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23ff9800' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 10px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
+
+/* --------------------
+          Header
+  ---------------------- */
+a{text-align: center; text-decoration: none;}
+p{font-weight: 700;font-size: 20px; line-height:50px;}
+.hello{margin: 0;}
+
+.start{ transition: .6s; color: black;font-size: 20px; font-weight:700; text-decoration: none; border: 3px solid black; border-radius: 40px; padding:5px 12px;}
+.start:focus{color: black;}
+.start:hover{background-color:rgba(255,152,0,0.8); transition: .3s;}
+.start:visited{color:black;}
+
+
+.sec1{height:100vh;
+  /* background-color:rgba(255,152,0,0.2); */
+}
+.me{position: absolute;right:500px; top:200px;}
+
+
+.sec2{height:1150px; position: relative; background-color:rgba(255,152,0,0);}
+.BTT{color: black;position: absolute; bottom: 5vh; right:5vw; opacity: 0;}
+
+.PJ{width:300px;height:150px;background-color: peachpuff; overflow: hidden; position: relative;}
+.PJ1{position: absolute; margin-left: -150px; left:50%; top: 40px;}
+.PJ2{position: absolute; margin-left: -150px; left:50%; top: 220px;}
+.PJ3{position: absolute; margin-left: -150px; left:50%; top: 400px;}
+.PJ4{position: absolute; margin-left: -150px; left:50%; top: 580px;}
+.PJ5{position: absolute; margin-left: -150px; left:50%; top: 760px;}
+.PJ6{position: absolute; margin-left: -150px; left:50%; top: 940px;}
+.preview{width:300px;}
+
+
+.title{opacity: 0; z-index: -10; position: absolute;}
+.mbtitle{color:white; z-index: 100; font-size: 16px; width:300px; margin-left: -150px; left:50%; text-align: center; margin-top: 0px;}
+.mbtitle1{position: absolute; top:145px;}
+.mbtitle2{position: absolute; top:325px;}
+.mbtitle3{position: absolute; top:505px;}
+.mbtitle4{position: absolute; top:685px;}
+.mbtitle5{position: absolute; top:865px;}
+.mbtitle6{position: absolute; top:1045px;}
+
+.mbtitle-box1{width:160px; background-color: black; height:20px; position: absolute; top:161px; margin-left: -80px; left:50%;}
+.mbtitle-box2{width:220px; background-color: black; height:20px; position: absolute; top:341px; margin-left: -110px; left:50%;}
+.mbtitle-box3{width:240px; background-color: black; height:20px; position: absolute; top:521px; margin-left: -120px; left:50%;}
+.mbtitle-box4{width:100px; background-color: black; height:20px; position: absolute; top:701px; margin-left: -50px; left:50%;}
+.mbtitle-box5{width:90px; background-color: black; height:20px; position: absolute; top:881px; margin-left: -45px; left:50%;}
+.mbtitle-box6{width:100px; background-color: black; height:20px; position: absolute; top:1061px; margin-left: -50px; left:50%;}
+
+
+
+/* .PJ1Title{margin-left: -8ch; left:50%;} */
+
+.preview{transition: .5s;}
+.preview:hover{ transform: scale(1.05); transition: .5s}
+
+.PJ_Process img{margin: -12px 0 0 0px;}
