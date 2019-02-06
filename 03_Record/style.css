@@ -43,10 +43,10 @@ border-bottom: 3px solid black; z-index: 10;}
 .reader{position: absolute; right:512px; top:370px; z-index: 50;}
 
 
-.start{width:200px; text-align: center;font-family: 'Inconsolata', monospace;font-weight: 700; font-size: 24px;
+.start{width:200px; text-align: center;font-family: 'Inconsolata', monospace;font-weight: 700; font-size: 24px;color:black;
   padding-top:3px;padding-bottom:3px;border: 3px solid black; border-radius: 20px; background-color:Coral;
   position: absolute; left: 560px; bottom:105px; z-index: 50; text-decoration: none;}
-.start:focus{color: white;}
+.start:focus{color: black;}
 .start:visited{color:black;}
 
 .ground-logo{fill:pink; opacity: 0.4; z-index: 5;}
