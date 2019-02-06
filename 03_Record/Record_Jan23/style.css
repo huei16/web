@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Ubuntu:300,400,500,700');
+
+html{scroll-behavior: smooth;}
+
+body, h1, div{margin:0;}
+h1{font-family: 'Ubuntu', sans-serif; font-weight: 700; font-size: 150px;
+/* transform: rotate(7deg); */
+}
+
+
+.date{position: fixed; left:50px;}
+.Jan24{position: fixed; top:30px; right:180px; color: black;
+  font-family: 'Ubuntu', sans-serif; font-weight: 700; font-size:20px; text-decoration: none; text-align: center;
+  border: 3px solid black; border-radius: 20px; padding: 3px 10px; background-color: #C4DAF2;}
+.Jan24:visited{color: black;}
+.Jan25{position: fixed; top:30px; right:86px; color: black;
+  font-family: 'Ubuntu', sans-serif; font-weight: 700; font-size:20px; text-decoration: none; text-align: center;
+  border: 3px solid black; border-radius: 20px; padding: 3px 10px; background-color: #C4DAF2;}
+.Jan25:visited{color: black;}
+.Home{position: fixed; top:30px; right:40px; color: black;
+  font-family: 'Ubuntu', sans-serif; font-weight: 700; font-size:20px; text-decoration: none; text-align: center;
+  border: 3px solid black; border-radius: 20px; padding: 3px 10px; background-color: #C4DAF2;}
+.Home:visited{color: black;}
+
+
+
+.ground{font-size: 30px;}
+.cross{color: steelblue; opacity: 0.5;}
+.cloud{position: fixed; left:80px; top:50px;}
+
+/* .header{display:block; background-color: black; top:300px;}
+.stickyheader{position:fixed; top:0;} */
+#day1{height:5000px; background-color: pink; position:relative; }
+.building-MET1{position:fixed; top:360px; left:7vw; z-index: 15;}
+.building-DC{position:fixed; top:355px; left:38vw; z-index: 15;}
+.building-MET2{position:fixed; top:360px; left:55vw; z-index: 15;}
+.building-BS{position:fixed; top:429px; left:83vw; z-index: 15;}
+
+#moi{position: fixed; top:500px; z-index: 20; pointer-events: none}
+#moibox{height:24px; width:1400px;background-color: LIGHTSTEELBLUE; position: absolute; top:103px; left:72px;}
+
+.location{
+  /* font-family: 'Ubuntu', sans-serif; font-weight: 400; font-size: 20px;  */
+font-family: 'Inconsolata', monospace;font-weight: 700; font-size: 24px;
+pointer-events: none }
+
+
+.lo1{position: fixed; top:600px; left:18vw; z-index: 10;}
+.lo2{position: fixed; top:600px; left:38vw; z-index: 10;}
+.lo3{position: fixed; top:600px; left:66vw; z-index: 10;}
+.lo4{position: fixed; top:600px; left:86vw; z-index: 10;}
+
+.ground{width:100vw; height:250px; bottom:0px; z-index: 0; border-top: 3px solid black;
+  background-color: LIGHTSTEELBLUE; position: fixed;}
+
+.building-img{cursor: url('reader_small2.png'), auto;}
+
+.body{position: relative;}
+.info{display:block; font-family: 'Inconsolata', monospace;font-weight: 700; font-size: 20px;}
+
+.METinfo1{position: fixed; top:130px; left:15vw;}
+.METbubble1{position: fixed; top:130px; left:13vw;}
+
+.DCinfo{position: fixed; top:130px; left:36.5vw;}
+.DCbubble{position: fixed; top:130px; left:34.5vw;}
+
+.METinfo2{position: fixed; top:130px; left:63vw;}
+.METbubble2{position: fixed; top:130px; left:61vw;}
+
+.BSinfo{position: fixed; top:130px; left:82vw;}
+.BSbubble{position: fixed; top:130px; left:80vw;}
+
+.normal{opacity: 0;}
+.hovered{opacity: 1;}
+
+
+/* -------------
+Typing animation
+---------------- */
+@keyframes type1 { from {width:0ch;} to {width:8ch;}}
+.type1{animation: type1 1.5s steps(8); overflow:hidden; white-space: nowrap; border-right: 3px solid black; width:8ch;
+animation-iteration-count: infinite; animation-direction: alternate;}
+
+@keyframes type2 { from {width:0ch;} to {width:17ch;}}
+.type2{animation: type2 2.8s steps(17); overflow:hidden; white-space: nowrap; border-right: 3px solid black; width:8ch;
+animation-iteration-count: infinite; animation-direction: alternate;}
+
+@keyframes type3 { from {width:0ch;} to {width:9ch;}}
+.type3{animation: type3 1.5s steps(9); overflow:hidden; white-space: nowrap; border-right: 3px solid black; width:8ch;
+animation-iteration-count: infinite; animation-direction: alternate;}
+
+@keyframes type4 { from {width:0ch;} to {width:18ch;}}
+.type4{animation: type4 3s steps(18); overflow:hidden; white-space: nowrap; border-right: 3px solid black; width:8ch;
+animation-iteration-count: infinite; animation-direction: alternate;}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Sarabun:800|Ubuntu:300,400,500,700');
+
+html{scroll-behavior: smooth;}
+
+body, h1, div{margin:0;}
+h1{font-family: 'Ubuntu', sans-serif; font-weight: 700; font-size: 90px;
+/* transform: rotate(7deg); */
+}
+
+
+
+.Sophia{font-size: 120px;padding-top:100px;padding-left: 200px;}
+.Where{padding-top:0px; text-align:center}
+.scroll-down{ margin: 0;padding-top:300px; font-family: 'Inconsolata', monospace;font-weight: 700; font-size: 24px;}
+.scroll-arrow{ margin-top:10px; font-family: 'Inconsolata', monospace;font-weight: 700; font-size: 40px;}
+
+#home{height:100vh;background-color: none; position: relative;}
+.building-img {display:inline-block;}
+.logo{position:fixed; width:800px; z-index: -10; opacity: 0.7; transform: rotate(340deg); top:200px;}
+.RISD-logo{fill: lightblue; opacity: 0.5;}
+.LogoYD{position: fixed;top:160px; z-index: -9; position: fixed;}
+.logoOG{position: fixed; width:900px; fill:none; top:-600px; right:-300px; opacity: 0.6; z-index: -10;}
+.RISD-logo-OG{stroke:coral;}
+.logoTEXT{font-family: 'Sarabun', sans-serif; font-size: 490px; color: lightblue; opacity: 0.45;position: fixed; top:-470px; left:810px; z-index: -5;transform: rotate(270deg);}
+
+/* .header{display:block; background-color: black; top:300px;}
+.stickyheader{position:fixed; top:0;} */
+#day1{height:100vh; background-color: mistyrose; position:relative; overflow: hidden;}
+.building-MET1{position:absolute; top:200px; left:450px;}
+.building-DC{position:absolute; top:195px; left:1010px;}
+.building-BS{position:absolute; top:269px; left:850px;}
+.building-15{position:absolute; top:127px; left:240px;}
+.building-ID{position: absolute; top:150px; left:20px;}
+.building-RT{position: absolute; top:340px; left:1170px;}
+.building-img{z-index: 20;}
+
+.sky{width:100%; height:290px;background-color: mintcream;
+border-bottom: 3px solid black; z-index: 10;}
+.sky2{position: absolute; top:0;width:100%; height:290px;background-color: mintcream;
+  border-bottom: 3px solid black;z-index: 10;}
+
+.rotate{position: fixed; left:580px; bottom:150px; z-index: 100;}
+.reader{position: absolute; right:512px; top:370px; z-index: 50;}
+
+
+.start{width:200px; text-align: center;font-family: 'Inconsolata', monospace;font-weight: 700; font-size: 24px;
+  padding-top:3px;padding-bottom:3px;border: 3px solid black; border-radius: 20px; background-color:Coral;
+  position: absolute; left: 560px; bottom:105px; z-index: 50; text-decoration: none;}
+.start:focus{color: white;}
+.start:visited{color:black;}
+
+.ground-logo{fill:pink; opacity: 0.4; z-index: 5;}
+.ground-logo1{width:400px; position: absolute; left:-70px; top:155px; transform: rotate(340deg);}
+.ground-logo2{width:500px; position: absolute; left:140px; top:475px; transform: rotate(160deg);}
+.ground-logo3{width:350px; position: absolute; left:400px; top:165px; transform: rotate(50deg);}
+.ground-logo4{width:600px; position: absolute; left:700px; top:280px; transform: rotate(50deg);}
+.ground-logo5{width:300px; position: absolute; left:1250px; top:200px; transform: rotate(10deg);}
+.ground-logo6{width:400px; position: absolute; left:1300px; top:500px;}
+.ground-logo7{width:370px; position: absolute; left:-250px; top:530px;}
+
+
+
+
+
+/*
+.header {
+  position: absolute;
+  top:200px;
+  left:40vw;
+  z-index: 20;
+  padding-top: 300px;
+}
+.moi{width:100px; position: fixed;} */
+/*
+.sticky1 {
+  position: fixed;
+  top: 0px;
+  width: 80vw
+}
+
+.sticky2 {
+  position: fixed;
+  top: 0px;
+} */

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 236.5 214.1" style="enable-background:new 0 0 236.5 214.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFF9CC;}
+	.st1{fill:#5F7293;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st4{fill:#FFFFFF;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+	.st5{fill:#C6BA63;stroke:#000000;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<rect x="23.5" y="54.5" class="st0" width="203" height="148"/>
+<polygon class="st1" points="52,19 10,54 227,54 199,10 186,28 170,19 "/>
+<path class="st2" d="M131.5,80.5v-8h-58v8h6v44h-6v8h8v9v61h8v-61h27v61h8v-61v-9h7v-8h-4v-44H131.5z M113.5,124.5h-19v-44h19V124.5
+	z"/>
+<rect x="170" y="53.1" transform="matrix(-1 -6.291823e-04 6.291823e-04 -1 396.8826 255.2255)" class="st3" width="57" height="149"/>
+<polygon class="st3" points="227.5,53.6 198.6,9.6 169.5,53.5 191.9,53.5 213.3,53.6 "/>
+<polyline class="st3" points="186.5,28.5 170.6,19.5 51.6,19.5 9.5,53.4 169.5,53.5 170.4,202.5 23.4,203.4 23.5,54.4 "/>
+<line class="st3" x1="213.3" y1="53.6" x2="213.2" y2="202.1"/>
+<line class="st3" x1="191.9" y1="53.5" x2="191.8" y2="202.5"/>
+<rect x="73.5" y="72.5" class="st3" width="58" height="8"/>
+<rect x="73.5" y="124.5" class="st3" width="58" height="8"/>
+<rect x="79.5" y="80.5" class="st3" width="15" height="44"/>
+<rect x="113.5" y="81.5" class="st3" width="14" height="43"/>
+<rect x="81.5" y="132.5" class="st3" width="43" height="9"/>
+<rect x="81.5" y="141.5" class="st3" width="8" height="61"/>
+<rect x="116.5" y="141.5" class="st3" width="8" height="61"/>
+<rect x="36.5" y="72.5" class="st4" width="20" height="37"/>
+<rect x="36.5" y="132.5" class="st4" width="20" height="37"/>
+<rect x="198.5" y="72.5" class="st4" width="9.5" height="37"/>
+<rect x="198.5" y="132.5" class="st4" width="9.5" height="37"/>
+<rect x="142.5" y="72.5" class="st4" width="20" height="37"/>
+<rect x="142.5" y="132.5" class="st4" width="20" height="37"/>
+<rect x="41.5" y="77.5" class="st5" width="10" height="27"/>
+<rect x="41.5" y="137.5" class="st5" width="10" height="27"/>
+<rect x="147.5" y="77.5" class="st5" width="10" height="27"/>
+<rect x="147.5" y="137.5" class="st5" width="10" height="27"/>
+</svg>

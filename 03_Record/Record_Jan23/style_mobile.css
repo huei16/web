@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Ubuntu:300,400,500,700');
+
+html{scroll-behavior: smooth;}
+
+body, h1, div{margin:0;}
+h1{font-family: 'Ubuntu', sans-serif; font-weight: 700; font-size: 150px;
+/* transform: rotate(7deg); */
+}
+
+
+.date{width: 7ch; position: fixed; top:20px; left:20px; font-size: 40px; }
+.Jan24{position: fixed; top:60px; right:20px; color: black;
+  font-family: 'Ubuntu', sans-serif; font-weight: 700; font-size:16px; text-decoration: none; text-align: center;
+  border: 3px solid black; border-radius: 20px; padding: 3px 10px; background-color: #C4DAF2;}
+.Jan24:visited{color: black;}
+.Jan25{position: fixed; top:100px; right:20px; color: black;
+  font-family: 'Ubuntu', sans-serif; font-weight: 700; font-size:16px; text-decoration: none; text-align: center;
+  border: 3px solid black; border-radius: 20px; padding: 3px 10px; background-color: #C4DAF2;}
+.Jan25:visited{color: black;}
+.Home{position: fixed; top:20px; right:20px; color: black;
+  font-family: 'Ubuntu', sans-serif; font-weight: 700; font-size:16px; text-decoration: none; text-align: center;
+  border: 3px solid black; border-radius: 20px; padding: 3px 10px; background-color: #C4DAF2;}
+.Home:visited{color: black;}
+
+
+
+.ground{font-size: 30px;}
+.cross{color: steelblue; opacity: 0.5; width:1350px;}
+.cloud{position: absolute; left:10px; top:10px;}
+
+/* .header{display:block; background-color: black; top:300px;}
+.stickyheader{position:fixed; top:0;} */
+#day1{ height: 600px; width:1350px;background-color:pink; position:relative; }
+.building-MET1{position:absolute; top:360px; left:20px; z-index: 15;}
+.building-DC{position:absolute; top:355px; left:420px; z-index: 15;}
+.building-MET2{position:absolute; top:360px; left:700px; z-index: 15;}
+.building-BS{position:absolute; top:429px; left:1100px; z-index: 15;}
+
+#moi{position: fixed; top:500px; left:20px; z-index: 20; pointer-events: none}
+
+.location{
+  /* font-family: 'Ubuntu', sans-serif; font-weight: 400; font-size: 20px;  */
+font-family: 'Inconsolata', monospace;font-weight: 700; font-size: 24px;
+pointer-events: none;}
+
+
+.lo1{position: absolute; top:590px; left:180px; z-index: 10;}
+.lo2{position: absolute; top:590px; left:420px; z-index: 10;}
+.lo3{position: absolute; top:590px; left:860px; z-index: 10;}
+.lo4{position: absolute; top:590px; left:1145px; z-index: 10;}
+
+.ground{width:1350px; height:250px; bottom:0px; z-index: 0; border-top: 3px solid black;
+  background-color: LIGHTSTEELBLUE; position: fixed;}
+
+.building-img{cursor: url('reader_small2.png'), auto;}
+
+.body{position: relative;}
+.info{z-index: 17;display:block; font-family: 'Inconsolata', monospace;font-weight: 700; font-size: 20px; color: black; text-decoration: none;}
+.bubble{z-index: 16;}
+.METinfo1{position: absolute; top:25vh; left:135px;}
+.METbubble1{position: absolute; top:25vh; left:105px;}
+
+.DCinfo{position: absolute; top:25vh; left:400px;}
+.DCbubble{position: absolute; top:25vh; left:370px;}
+
+.METinfo2{position: absolute; top:25vh; left:815px;}
+.METbubble2{position: absolute; top:25vh; left:785px;}
+
+.BSinfo{position: absolute; top:25vh; left:1090px;}
+.BSbubble{position: absolute; top:25vh; left:1060px;}
+
+
+@keyframes type1 { from {width:0ch;} to {width:8ch;}}
+.type1{animation: type1 1.5s steps(8); overflow:hidden; white-space: nowrap; border-right: 3px solid black; width:8ch;
+animation-iteration-count: infinite; animation-direction: alternate;}
+
+@keyframes type2 { from {width:0ch;} to {width:17ch;}}
+.type2{animation: type2 2.8s steps(17); overflow:hidden; white-space: nowrap; border-right: 3px solid black; width:8ch;
+animation-iteration-count: infinite; animation-direction: alternate;}
+
+@keyframes type3 { from {width:0ch;} to {width:9ch;}}
+.type3{animation: type3 1.5s steps(9); overflow:hidden; white-space: nowrap; border-right: 3px solid black; width:8ch;
+animation-iteration-count: infinite; animation-direction: alternate;}
+
+@keyframes type4 { from {width:0ch;} to {width:18ch;}}
+.type4{animation: type4 3s steps(18); overflow:hidden; white-space: nowrap; border-right: 3px solid black; width:8ch;
+animation-iteration-count: infinite; animation-direction: alternate;}

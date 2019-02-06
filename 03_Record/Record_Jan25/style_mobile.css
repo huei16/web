@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Ubuntu:300,400,500,700');
+
+html{scroll-behavior: smooth;}
+
+body, h1, div{margin:0;}
+h1{font-family: 'Ubuntu', sans-serif; font-weight: 700; font-size: 150px;
+/* transform: rotate(7deg); */
+}
+.date{width: 7ch; position: fixed; top:20px; left:20px; font-size: 40px; }
+.Jan23{position: fixed; top:60px; right:20px; color: black;
+  font-family: 'Ubuntu', sans-serif; font-weight: 700; font-size:16px; text-decoration: none; text-align: center;
+  border: 3px solid black; border-radius: 20px; padding: 3px 10px; background-color: #FFE36C;}
+.Jan23:visited{color: black;}
+.Jan24{position: fixed; top:100px; right:20px; color: black;
+  font-family: 'Ubuntu', sans-serif; font-weight: 700; font-size:16px; text-decoration: none; text-align: center;
+  border: 3px solid black; border-radius: 20px; padding: 3px 10px; background-color: #FFE36C;}
+.Jan24:visited{color: black;}
+.Home{position: fixed; top:20px; right:20px; color: black;
+  font-family: 'Ubuntu', sans-serif; font-weight: 700; font-size:16px; text-decoration: none; text-align: center;
+  border: 3px solid black; border-radius: 20px; padding: 3px 10px; background-color: #FFE36C;}
+.Home:visited{color: black;}
+
+
+.ground{font-size: 30px;}
+.cross{color: #FF8500; opacity: 0.5;}
+.cloud{position: absolute; left:10px; top:10px;}
+
+/* .header{display:block; background-color: black; top:300px;}
+.stickyheader{position:fixed; top:0;} */
+#day2{height:600px; width:1350px; background-color: lavenderblush; position:relative; }
+
+.building-ID{position:absolute; top:308px; left:80px; z-index: 15;}
+.building-15-1{position:absolute; top:287px; left:320px; z-index: 15;}
+.building-RT{position:absolute; top:520px; left:500px; z-index: 15;}
+.building-15-2{position:absolute; top:287px; left:800px; z-index: 15;}
+.building-BS{position:absolute; top:429px; left:1100px; z-index: 15;}
+
+#moi{position: fixed; top:500px; z-index: 20; pointer-events: none}
+
+.location{
+  /* font-family: 'Ubuntu', sans-serif; font-weight: 400; font-size: 20px;  */
+font-family: 'Inconsolata', monospace;font-weight: 700; font-size: 24px;
+pointer-events: none }
+
+
+.lo1{position: absolute; top:590px; left:90px; z-index: 10;}
+.lo2{position: absolute; top:590px; left:390px; z-index: 10;}
+.lo3{position: absolute; top:590px; left:575px; z-index: 10;}
+.lo4{position: absolute; top:590px; left:870px; z-index: 10;}
+.lo5{position: absolute; top:590px; left:1145px; z-index: 10;}
+
+.ground{width:1350px; height:250px; bottom:0px; z-index: 0; border-top: 3px solid black;
+  background-color: #FFE36C; position: fixed; }
+
+.building-img{cursor: url('reader_small2.png'), auto;}
+
+.body{position: relative;}
+.info{display:block; font-family: 'Inconsolata', monospace;font-weight: 700; font-size: 20px; z-index: 20; color: black; text-decoration: none;}
+.bubble{z-index: 19;}
+
+.IDinfo{position: absolute; top:25vh; left:90px;}
+.IDbubble{position: absolute; top:25vh; left:60px;}
+
+.WEinfo1{position: absolute; top:25vh; left:345px;}
+.WEbubble1{position: absolute; top:25vh; left:315px;}
+
+.RTinfo{position: absolute; top:45vh; left:540px;}
+.RTbubble{position: absolute; top:45vh; left:510px;}
+
+.WEinfo2{position: absolute; top:25vh; left:815px;}
+.WEbubble2{position: absolute; top:25vh; left:785px;}
+
+.BSinfo{position: absolute; top:25vh; left:1090px;}
+.BSbubble{position: absolute; top:25vh; left:1060px;}
+
+
+
+/* -------------
+Typing animation
+---------------- */
+@keyframes type1 { from {width:0ch;} to {width:15ch;}}
+.type1{animation: type1 2.5s steps(15); overflow:hidden; white-space: nowrap; border-right: 3px solid black; width:8ch;
+animation-iteration-count: infinite; animation-direction: alternate;}
+
+@keyframes type2 { from {width:0ch;} to {width:14ch;}}
+.type2{animation: type2 2.8s steps(14); overflow:hidden; white-space: nowrap; border-right: 3px solid black; width:8ch;
+animation-iteration-count: infinite; animation-direction: alternate;}
+
+@keyframes type3 { from {width:0ch;} to {width:17ch;}}
+.type3{animation: type3 2.5s steps(17); overflow:hidden; white-space: nowrap; border-right: 3px solid black; width:8ch;
+animation-iteration-count: infinite; animation-direction: alternate;}
+
+@keyframes type4 { from {width:0ch;} to {width:10ch;}}
+.type4{animation: type4 3s steps(10); overflow:hidden; white-space: nowrap; border-right: 3px solid black; width:8ch;
+animation-iteration-count: infinite; animation-direction: alternate;}
+
+@keyframes type5 { from {width:0ch;} to {width:19ch;}}
+.type5{animation: type5 3s steps(19); overflow:hidden; white-space: nowrap; border-right: 3px solid black; width:8ch;
+animation-iteration-count: infinite; animation-direction: alternate;}
